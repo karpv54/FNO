@@ -1,0 +1,28 @@
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local credentials and environment settings
+.env
+.env.*
+!.env.example
+
+# Generated datasets, checkpoints, and training outputs
+*.pt
+*.pth
+/data/
+/results*/
+/predictions*/
+/my_prediction/
+/comparison_results*/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
